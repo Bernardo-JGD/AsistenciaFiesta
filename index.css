@@ -1,0 +1,61 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.contenedorFormularioTabla{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorTituloFormulario{
+    background-color: #A9D8FC;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.contenedorDivTabla{
+    width: 50%;
+}
+
+.contenedorTitulo{
+    width: 80%;
+    border: 1px solid black;
+    /* margin: 0px 10% 0px 10%; */
+}
+
+.contenedorDivFormulario{
+    width: 80%;
+    border: 1px solid black
+    /* margin: 0px 10% 0px 10%; */
+}
+
+h3{
+    text-align: center;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+input{
+    font-size: 1.5rem;
+    outline: none;
+}
+
+input[type=text], input[type=number]{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 0.5rem 5rem;
+}
